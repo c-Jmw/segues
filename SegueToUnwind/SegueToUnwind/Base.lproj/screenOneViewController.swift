@@ -6,8 +6,19 @@
 //  Copyright (c) 2015 casey macrae. All rights reserved.
 //
 
-import Cocoa
+import UIKit
 
 class screenOneViewController: UIViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
+    override func didReciveMemoryWarning() {
+        super.didReciveMemoryWarning()
+    }
+    
+    @IBAction func unwindToSegueScreenOneViewController(segue: UIStoryboardSegue, sender: AnyObject?) {
+    
+    }
 
 }
